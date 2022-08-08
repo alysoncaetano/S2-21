@@ -1,0 +1,98 @@
+body {
+    background-color:aliceblue;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    align-items: center;
+    background-color:white;
+    gap: 100px;
+}
+.logo {
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.topo {
+    margin-right: 270px;
+}
+.elemento {
+    text-decoration: none;
+    margin-right: 10px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.botao {
+    display: flex;
+    width: 200px;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    background-color: #4c6ef5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    border-radius: 4px;
+    border:#4c6ef5;
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+.conteiner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.borda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vitrine {
+    display: flex; 
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.itens {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 350px;
+    align-items: center;
+    border-radius: 10px;
+}
+.img {
+    width: 250px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    width: 0 auto;
+    margin-top: 10px;
+}
+.texto {
+    display: flex;
+    margin-top: 20px;
+    width: 270px;
+    height: 20px;
+}
+.preco {
+    display: flex;
+    margin-top: 20px;
+}
+.botao1 {
+    display: flex;
+    margin-top: 20px;
+    width: 240px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: #4c6ef5;
+    color: white;
+    border-radius: 5px;
+    border-color:#4c6ef5;
+}
